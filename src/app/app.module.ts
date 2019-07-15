@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { AcercadeComponent } from './components/acercade/acercade.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    InicioComponent,
+    ContactoComponent,
+    AcercadeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
